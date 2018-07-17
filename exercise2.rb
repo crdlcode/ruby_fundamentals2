@@ -10,3 +10,5 @@ end
 puts negative?(3)
 puts negative?(-5)
 puts negative?(-8)
+puts negative?(-2000)
+puts negative?(-30/4)
