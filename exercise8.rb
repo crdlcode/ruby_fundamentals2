@@ -7,10 +7,13 @@ def how_long (num,distance)
   puts "How long did person #{num} run take to run #{distance} metres?"
 
 #methods repeating calculations
-def to_seconds(distance,time)
-
-
+def to_seconds(mins)
+  mins * 60
 end
+def calc_speed(distance,time)
+  (distance / time.to_f).round(2)
+end
+#methods for repeating runners
 
 
 end
